@@ -10,7 +10,8 @@ SRC = main.c ft_strlen.c ft_isalpha.c ft_isspace.c ft_isdigit.c \
 	  ft_strcat.c ft_strncat.c ft_strlcpy.c ft_strlcat.c \
 	  ft_calloc.c ft_strdup.c ft_memcpy.c ft_substr.c \
 	  ft_strjoin.c ft_strtrim.c ft_split.c ft_itoa.c \
-	  ft_strmapi.c ft_striteri.c
+	  ft_strmapi.c ft_striteri.c ft_putchar_fd.c ft_putstr_fd.c \
+	  ft_putendl_fd.c ft_putnbr_fd.c
 
 # Derive object file names from source file names
 OBJ = $(SRC:.c=.o)

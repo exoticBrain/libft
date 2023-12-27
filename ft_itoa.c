@@ -18,7 +18,7 @@
 
 #define SIGN_PLACE_HOLDER 1
 
-int countDigits(int n, int *sign)
+static int countDigits(int n, int *sign)
 {
 	int count = 0;
 
@@ -44,7 +44,7 @@ int countDigits(int n, int *sign)
 	return count;
 }
 
-void fill_in_digits(char *str, int n, int len)
+static void fill_in_digits(char *str, int n, int len)
 {
 	while (n != 0 && len > 0)
 	{
