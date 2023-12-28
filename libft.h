@@ -7,6 +7,12 @@
 
 #define SIZE_T_MAX ((size_t) -1)
 
+typedef struct s_list
+{
+	void          *content;
+	struct s_list *next;
+} t_list;
+
 int    ft_isalnum(int);
 int    ft_isspace(int);
 int    ft_isalpha(int);

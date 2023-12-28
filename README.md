@@ -1,4 +1,4 @@
-# libft - A C Library
+# libft  A C Library
 
 ## Overview
 

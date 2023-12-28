@@ -13,4 +13,5 @@ void ft_putnbr_fd(int n, int fd)
 	ft_putstr_fd(number, fd);
 
 	free(number);
+    number = NULL;
 }
