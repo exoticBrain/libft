@@ -25,7 +25,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/libft.git
+   git clone https://github.com/exoticBrain/libft.git
 
 2. Build the library:
 
