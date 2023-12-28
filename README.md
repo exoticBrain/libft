@@ -48,7 +48,7 @@
 
 ## Documentation
 
-- Detailed documentation for each function in libft is provided in the libft.h header file.
+- Detailed documentation for each function in `libft` is provided in the [libft.h](./libft.h) header file.
 - You can also refer to the source code for implementation details.
 
 ## License
